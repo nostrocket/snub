@@ -1,6 +1,6 @@
-installsnub:
+install:
 	go mod tidy
 	go install cmd/snub/*.go
 
-publish: installsnub
+publish: install
 	snub publish
