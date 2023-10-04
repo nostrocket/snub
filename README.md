@@ -77,7 +77,7 @@ It MAY contain a `forknode` tag identifying the latest commit which is at parity
 This is a replaceable event that MUST contain a branch name, HEAD ref, `d` tag, and `a` tag identifying the kind 31228 Repo Anchor.
 
 ### Commit - Kind 3121
-This is a non-replableable event containign a git Commit object.
+This is a non-replableable event containing a git Commit object.
 #### MUST contain:
 * a SHA1 git identifier in the `gid` tag,
 * a SHA1 git identifier in the `tree` tag,
